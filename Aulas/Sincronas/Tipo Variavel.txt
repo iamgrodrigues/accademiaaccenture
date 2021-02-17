@@ -1,0 +1,40 @@
+try
+     {
+  	    int b = Integer.parseInt(numer); //Converte a string para inteiro
+        System.out.println("\nNumero: "+b);         
+     }
+     catch (NumberFormatException nfe) //Se naum for um numero inteiro entrará aqui
+     {
+  	    System.out.println("Nao eh um numero inteiro...");
+     }
+  }
+
+if(i == null){
+
+}
+
+=====================================
+Typetester t = new Typetester();
+t.printType( yourVariable );
+============================
+
+class Typetester {
+    void printType(byte x) {
+        System.out.println(x + " is an byte");
+    }
+    void printType(int x) {
+        System.out.println(x + " is an int");
+    }
+    void printType(float x) {
+        System.out.println(x + " is an float");
+    }
+    void printType(double x) {
+        System.out.println(x + " is an double");
+    }
+    void printType(char x) {
+        System.out.println(x + " is an char");
+    }
+}
+
+===============================
+boolean b = a instanceof String

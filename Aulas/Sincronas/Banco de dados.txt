@@ -1,0 +1,26 @@
+create database curso;
+
+use curso;
+create table clientes(
+codigo int primary key AUTO_INCREMENT,
+nome varchar(30),
+fone varchar(20),
+uf char(2)
+    )
+
+https://jar-download.com/?search_box=mysql-connector-java-5.7.20  (OK)
+
+https://www.devmedia.com.br/mysql-connector-j/4076
+
+
+https://dev.mysql.com/downloads/windows/installer/8.0.html
+
+https://dev.mysql.com/downloads/connector/j/
+
+https://www.mysql.com/products/connector/
+
+https://downloads.mariadb.com/Connectors/java/connector-java-2.7.2/
+
+http://www.universidadejava.com.br/java/java-jdbc/
+
+Verifique se a lib do driver do MySql se encontra em seu classpath (WEB-INF/lib)
